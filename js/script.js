@@ -5,7 +5,6 @@ console.log('Hello World!')
 function onSubmit(){
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
-    let address = document.getElementById('address').value;
     let regex = /^[a-zA-Z]+$/;
     let regexForEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     if(!regex.test(name)){
