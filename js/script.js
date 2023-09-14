@@ -1,7 +1,5 @@
 console.log('Hello World!')
 
-// verifier que l'input name est bien correctement rempli
-
 function onSubmit(){
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
